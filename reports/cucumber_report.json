@@ -1,0 +1,113 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "csv-data-validations;validate-total-sum",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Validate total sum",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I have loaded the CSV file",
+            "match": {
+              "location": "features/step_definitions/validateCsv.steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1141284
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I calculate the total count of VIRN column",
+            "match": {
+              "location": "features/step_definitions/validateCsv.steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 139644
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the total count should be 1000000",
+            "match": {
+              "location": "features/step_definitions/validateCsv.steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 93598
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "csv-data-validations;validate-virn-length",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Validate VIRN length",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I have loaded the CSV file",
+            "match": {
+              "location": "features/step_definitions/validateCsv.steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61290
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I check the length of each VIRN",
+            "match": {
+              "location": "features/step_definitions/validateCsv.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14238533
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "all VIRNs should have a length of 15",
+            "match": {
+              "location": "features/step_definitions/validateCsv.steps.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 317696
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "csv-data-validations",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "CSV Data Validations",
+    "tags": [],
+    "uri": "features/validateCsv.feature"
+  }
+]

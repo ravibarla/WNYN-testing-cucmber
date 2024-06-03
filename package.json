@@ -1,0 +1,23 @@
+{
+  "name": "wnyn-testing-cucumber",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "mkdir -p reports",
+    "test": "npx cucumber-js",
+    "test1": "cucumber-js --require-module @babel/register",
+    "report": "node generate-report.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.8.0",
+    "chai": "^5.1.1",
+    "csv-parser": "^3.0.0"
+  },
+  "dependencies": {
+    "cucumber-html-reporter": "^7.1.1"
+  }
+}
