@@ -4,48 +4,56 @@
     "elements": [
       {
         "description": "",
-        "id": "csv-data-validations;validate-total-sum",
+        "id": "wnyn-csv-file-validations;validate-total-entry",
         "keyword": "Scenario",
-        "line": 3,
-        "name": "Validate total sum",
+        "line": 4,
+        "name": "Validate total Entry",
         "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 17757556560
+            }
+          },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 4,
+            "line": 5,
             "name": "I have loaded the CSV file",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:13"
+              "location": "features/step_definitions/validateCsv.steps.js:28"
             },
             "result": {
               "status": "passed",
-              "duration": 1141284
+              "duration": 212846
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 5,
-            "name": "I calculate the total count of VIRN column",
+            "line": 6,
+            "name": "I calculate the total entries",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:17"
+              "location": "features/step_definitions/validateCsv.steps.js:33"
             },
             "result": {
               "status": "passed",
-              "duration": 139644
+              "duration": 100440
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 6,
-            "name": "the total count should be 1000000",
+            "line": 7,
+            "name": "the total entries is 1000000",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:21"
+              "location": "features/step_definitions/validateCsv.steps.js:37"
             },
             "result": {
               "status": "passed",
-              "duration": 93598
+              "duration": 170191
             }
           }
         ],
@@ -54,48 +62,462 @@
       },
       {
         "description": "",
-        "id": "csv-data-validations;validate-virn-length",
+        "id": "wnyn-csv-file-validations;validate-total-unique-tickets",
         "keyword": "Scenario",
-        "line": 8,
-        "name": "Validate VIRN length",
+        "line": 9,
+        "name": "Validate total unique tickets",
         "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 22898230500
+            }
+          },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 9,
+            "line": 10,
             "name": "I have loaded the CSV file",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:13"
+              "location": "features/step_definitions/validateCsv.steps.js:28"
             },
             "result": {
               "status": "passed",
-              "duration": 61290
+              "duration": 119280
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 10,
-            "name": "I check the length of each VIRN",
+            "line": 11,
+            "name": "I calculate the unique tickets",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:29"
+              "location": "features/step_definitions/validateCsv.steps.js:46"
             },
             "result": {
               "status": "passed",
-              "duration": 14238533
+              "duration": 498812159
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 11,
-            "name": "all VIRNs should have a length of 15",
+            "line": 12,
+            "name": "the total unique tickets is 1000000",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:38"
+              "location": "features/step_definitions/validateCsv.steps.js:51"
             },
             "result": {
               "status": "passed",
-              "duration": 317696
+              "duration": 211875
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "wnyn-csv-file-validations;validate-length-of-tickets",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Validate length of tickets",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 31671679275
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I have loaded the CSV file",
+            "match": {
+              "location": "features/step_definitions/validateCsv.steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 130572
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I calculate the length of tickets",
+            "match": {
+              "location": "features/step_definitions/validateCsv.steps.js:131"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 79394863
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "the length of tickets is 12",
+            "match": {
+              "location": "features/step_definitions/validateCsv.steps.js:140"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 157102
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "wnyn-csv-file-validations;validate-the-number-of-packs",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Validate the number of packs",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 32778995125
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "I have loaded the CSV file",
+            "match": {
+              "location": "features/step_definitions/validateCsv.steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 87717
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I calculate the total packs",
+            "match": {
+              "location": "features/step_definitions/validateCsv.steps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 136092
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "I found that total packs is 400",
+            "match": {
+              "location": "features/step_definitions/validateCsv.steps.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 91813
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "wnyn-csv-file-validations;validate-the-number-of-books",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Validate the number of books",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 31195497218
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "I have loaded the CSV file",
+            "match": {
+              "location": "features/step_definitions/validateCsv.steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 123312
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "I calculate the total books in each pack",
+            "match": {
+              "location": "features/step_definitions/validateCsv.steps.js:72"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 322811
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "I found that total books in each pack is 25",
+            "match": {
+              "location": "features/step_definitions/validateCsv.steps.js:81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 126058
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "wnyn-csv-file-validations;validate-the-total-tickets-in-each-books",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "Validate the total tickets in each books",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 33316142608
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 32,
+            "name": "I have loaded the CSV file",
+            "match": {
+              "location": "features/step_definitions/validateCsv.steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 87450
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 33,
+            "name": "I calculate the total tickets in each books in each pack",
+            "match": {
+              "location": "features/step_definitions/validateCsv.steps.js:96"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 853087
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "I found that total tickets in each books in each pack is 100",
+            "match": {
+              "location": "features/step_definitions/validateCsv.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 457827
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "wnyn-csv-file-validations;validate-total-unique-virn",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "Validate total unique VIRN",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 32093379306
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 37,
+            "name": "I have loaded the CSV file",
+            "match": {
+              "location": "features/step_definitions/validateCsv.steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 96566
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 38,
+            "name": "I calculate the total unique VIRN",
+            "match": {
+              "location": "features/step_definitions/validateCsv.steps.js:149"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 103321
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "the total unique VIRN is 1000000",
+            "match": {
+              "location": "features/step_definitions/validateCsv.steps.js:153"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 95701
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "wnyn-csv-file-validations;validate-length-of-virn",
+        "keyword": "Scenario",
+        "line": 41,
+        "name": "Validate length of VIRN",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 29835027032
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 42,
+            "name": "I have loaded the CSV file",
+            "match": {
+              "location": "features/step_definitions/validateCsv.steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 69647
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 43,
+            "name": "I calculate the length of VIRN",
+            "match": {
+              "location": "features/step_definitions/validateCsv.steps.js:162"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 86646744
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "the length of VIRN is 15",
+            "match": {
+              "location": "features/step_definitions/validateCsv.steps.js:171"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 155973
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "wnyn-csv-file-validations;validate-starting-3digit-of-virn",
+        "keyword": "Scenario",
+        "line": 46,
+        "name": "Validate starting 3digit of VIRN",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 28217742974
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 47,
+            "name": "I have loaded the CSV file",
+            "match": {
+              "location": "features/step_definitions/validateCsv.steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 97209
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 48,
+            "name": "I calculate the starting 3digit of VIRN",
+            "match": {
+              "location": "features/step_definitions/validateCsv.steps.js:180"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 117950991
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 49,
+            "name": "starting 3digit of VIRN is 183",
+            "match": {
+              "location": "features/step_definitions/validateCsv.steps.js:189"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 216382
             }
           }
         ],
@@ -103,10 +525,10 @@
         "type": "scenario"
       }
     ],
-    "id": "csv-data-validations",
+    "id": "wnyn-csv-file-validations",
     "line": 1,
     "keyword": "Feature",
-    "name": "CSV Data Validations",
+    "name": "WNYN CSV FILE Validations",
     "tags": [],
     "uri": "features/validateCsv.feature"
   }

@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "pretest": "mkdir -p reports",
-    "test": "npx cucumber-js",
+    "pretest1": "mkdir -p reports",
+    "pretest": "export NODE_OPTIONS=--max-old-space-size=12000",
+    "clearSpace":"export NODE_OPTIONS=--max-old-space-size=8192",
+    "test": "npx cucumber-js ",
     "test1": "cucumber-js --require-module @babel/register",
     "report": "node generate-report.js"
   },

@@ -38,12 +38,6 @@ const readCsvAndExtractColumns = (filePath, columns) => {
   return { data: result, uniqueVirn, uniqueTicketNo, uniqueTicketNoStr };
 };
 
-module.exports = { readCsvAndExtractColumns };
-//define path and columns to extract
-// const filepath = path.join(path.resolve(), "data", "WNYN_DATA.csv");
-// const columnsToExtract = ["virn", "ticket_no", "ticket_no_str"];
 
-// // read csv file and extract the columns
-// const { data, uniqueVirn, uniqueTicketNo, uniqueTicketNoStr } =
-//   readCsvAndExtractColumns(filepath, columnsToExtract);
-// console.log(uniqueVirn.length);
+module.exports = { readCsvAndExtractColumns ,organisePackBookTicket};
+
