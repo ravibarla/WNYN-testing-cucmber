@@ -48,4 +48,56 @@ Feature: WNYN CSV FILE Validations
     When I calculate the starting 3digit of VIRN
     Then starting 3digit of VIRN is 183
     
+  Scenario: Validate length of agtv
+    Given I have loaded the CSV file
+    When I calculate length of AGTV code
+    Then Found that every ticket's agtv length is 3
+
+  Scenario: Validate the agtv code characters
+    Given I have loaded the CSV file
+    When I calculate the agtv code characters
+    Then Found that every ticket's agtv consist the character in between range is [A, B, C, J, N, S, Z, k]    
+
+  Scenario: Validate the agtv code AAA with correct prize amount
+    Given I have loaded the CSV file
+    When I calculate the agtv code AAA with its prize amount 10
+    Then I found that agtv code AAA has correct prize amount 10
+
+  Scenario: Validate the agtv code BBB with correct prize amount
+    Given I have loaded the CSV file
+    When I calculate the agtv code BBB with its prize amount 20
+    Then I found that agtv code BBB has correct prize amount 20    
+
+
+  Scenario: Validate the agtv code CCC with correct prize amount
+    Given I have loaded the CSV file
+    When I calculate the agtv code CCC with its prize amount 50
+    Then I found that agtv code CCC has correct prize amount 50
+
+  Scenario: Validate the agtv code JJJ with correct prize amount
+    Given I have loaded the CSV file
+    When I calculate the agtv code JJJ with its prize amount 100
+    Then I found that agtv code JJJ has correct prize amount 100    
+ 
+
+  Scenario: Validate the agtv code NNN with correct prize amount
+    Given I have loaded the CSV file
+    When I calculate the agtv code NNN with its prize amount 500
+    Then I found that agtv code NNN has correct prize amount 500
+
+  Scenario: Validate the agtv code SSS with correct prize amount
+    Given I have loaded the CSV file
+    When I calculate the agtv code SSS with its prize amount 1000
+    Then I found that agtv code SSS has correct prize amount 1000   
+
+
+  Scenario: Validate the agtv code ZZZ with correct prize amount
+    Given I have loaded the CSV file
+    When I calculate the agtv code ZZZ with its prize amount 400000
+    Then I found that agtv code ZZZ has correct prize amount 400000
+
+  Scenario: Validate the agtv code having different character ex-ABC with ZERO prize amount
+    Given I have loaded the CSV file
+    When I calculate the agtv code having different character with its prize amount 0
+    Then I found that agtv code having different character has correct prize amount 0
 

@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "pretest1": "mkdir -p reports",
-    "pretest": "export NODE_OPTIONS=--max-old-space-size=12000",
+    "pretest": "export NODE_OPTIONS=--max-old-space-size=8192",
     "clearSpace":"export NODE_OPTIONS=--max-old-space-size=8192",
     "test": "npx cucumber-js ",
     "test1": "cucumber-js --require-module @babel/register",
