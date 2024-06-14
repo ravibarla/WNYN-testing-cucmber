@@ -41,22 +41,15 @@ const readCsvFile = async (filepath) => {
         });
 
         // Store row in data structure
-        if (count < 2) {
-          csvData.push(row);
-        }
+        // if (count < 2) {
+        csvData.push(row);
+        // }
         count++;
       })
       .on("end", () => {
-        // console.log(csvHeaders);
-        // console.log(csvData);
-        // Further processing or use of csvHeaders and csvData
         resolve({ csvHeaders: Object.values(csvHeaders), csvData });
-        // return { csvHeaders, csvData }
-        // resolve()
       });
   });
-  // console.log("csvHeaders:", csvHeaders);
-  // return { csvHeaders, csvData };
 };
 
 const organisePackBookTicket = (csvData) => {
@@ -84,7 +77,7 @@ const organisePackBookTicket = (csvData) => {
     packs[pack_code].books[book_code].tickets.push(ticket_code);
   });
   // console.log(JSON.stringify(packs));
-  // return packs;
+
   // Transform the packs object to match the desired output format
   let result = Object.values(packs).map((pack) => {
     return {

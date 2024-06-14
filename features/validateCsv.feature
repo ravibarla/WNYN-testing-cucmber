@@ -106,3 +106,7 @@ Feature: WNYN CSV FILE Validations
     When I gone through all the win number
     Then I Found that all the win numbers are unique
 
+  Scenario: validate your number
+    Given I have loaded the CSV file
+    When I gone through all the your number
+    Then I found that all the your number is unique

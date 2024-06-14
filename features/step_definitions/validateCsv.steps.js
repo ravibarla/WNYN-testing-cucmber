@@ -387,3 +387,37 @@ Then("I Found that all the win numbers are unique", () => {
     );
   }
 });
+
+
+// //validate unique your number
+When("I gone through all the your number", () => {
+  this.sameUniqueNumbers = csvData.filter((data) => {
+    const winNumbers = [
+      data.ynumber_1,
+      data.ynumber_2,
+      data.ynumber_3,
+      data.ynumber_4,
+      data.ynumber_5,
+      data.ynumber_6,
+      data.ynumber_7,
+      data.ynumber_8,
+      data.ynumber_9,
+      data.ynumber_10,
+      data.ynumber_11,
+      data.ynumber_12,
+      data.ynumber_13,
+      data.ynumber_14,
+      data.ynumber_15,
+    ];
+    const uniqueWinNumbers = new Set(winNumbers);
+    return uniqueWinNumbers.size !== winNumbers.length;
+  });
+});
+
+Then("I found that all the your number is unique", () => {
+  if (this.sameUniqueNumbers.length !== 0) {
+    throw new Error(
+      `total tickets with same win numbers are ${this.sameUniqueNumbers.length}`
+    );
+  }
+});
