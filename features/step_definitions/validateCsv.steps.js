@@ -60,6 +60,7 @@ Then("the total unique tickets is {int}", function (totalCount) {
       `Total entries is not equal to ${totalCount}. Actual total entries: ${this.uniqueTotalTickets.size}`
     );
   }
+  this.uniqueTotalTickets = new Set();
 });
 
 //validate total packs
@@ -94,6 +95,7 @@ Then("I found that total books in each pack is {int}", (totalCount) => {
       );
       return;
     }
+    this.packBookCount = [];
   });
 });
 
@@ -128,6 +130,7 @@ Then(
           );
           return;
         }
+        this.packBookTickets = [];
       });
     });
   }
@@ -148,6 +151,7 @@ Then("the length of tickets is {int}", function (totalCount) {
       `Total tickets with length not equal to ${totalCount}. Actual total entries: ${this.correctListOfTicketLength}`
     );
   }
+  this.correctListOfTicketLength = 0;
 });
 
 //validation for total unique virn
@@ -211,6 +215,7 @@ Then("Found that every ticket's agtv length is {int}", function (totalCount) {
       `Total AGTV code's length not equal to ${totalCount} is: ${this.incorrectAgtvLength.length}`
     );
   }
+  this.incorrectAgtvLength = [];
 });
 
 //validation characters of agtv code
@@ -231,6 +236,7 @@ Then(
         } : ${JSON.stringify(this.incorrectCharacterList)}`
       );
     }
+    this.incorrectCharacterList = [];
   }
 );
 
@@ -247,6 +253,7 @@ Then("I found that agtv code AAA has correct prize amount {int}", (amt) => {
       `Total ticket having agtv code AAA and  prize amount not equal to ${amt} is: ${this.incorrectAgtvPrizeAmount.length} `
     );
   }
+  this.incorrectAgtvPrizeAmount = [];
 });
 
 //validate the prize amount of AGTV code - BBB
@@ -262,6 +269,7 @@ Then("I found that agtv code BBB has correct prize amount {int}", (amt) => {
       `Total ticket having agtv code BBB and  prize amount not equal to ${amt}} is: ${this.incorrectAgtvPrizeAmount.length} `
     );
   }
+  this.incorrectAgtvPrizeAmount = [];
 });
 
 //validate the prize amount of AGTV code - AAA
@@ -277,6 +285,7 @@ Then("I found that agtv code CCC has correct prize amount {int}", (amt) => {
       `Total ticket having agtv code CCC and  prize amount not equal to ${amt} is: ${this.incorrectAgtvPrizeAmount.length} `
     );
   }
+  this.incorrectAgtvPrizeAmount = [];
 });
 
 //validate the prize amount of AGTV code - JJJ
@@ -292,6 +301,7 @@ Then("I found that agtv code JJJ has correct prize amount {int}", (amt) => {
       `Total ticket having agtv code JJJ and  prize amount not equal to ${amt} is: ${this.incorrectAgtvPrizeAmount.length} `
     );
   }
+  this.incorrectAgtvPrizeAmount = [];
 });
 
 //validate the prize amount of AGTV code - NNN
@@ -307,6 +317,7 @@ Then("I found that agtv code NNN has correct prize amount {int}", (amt) => {
       `Total ticket having agtv code NNN and  prize amount not equal to ${amt} is: ${this.incorrectAgtvPrizeAmount.length} `
     );
   }
+  this.incorrectAgtvPrizeAmount = [];
 });
 
 //validate the prize amount of AGTV code - SSS
@@ -322,6 +333,7 @@ Then("I found that agtv code SSS has correct prize amount {int}", (amt) => {
       `Total ticket having agtv code SSS and  prize amount not equal to ${amt} is: ${this.incorrectAgtvPrizeAmount.length} `
     );
   }
+  this.incorrectAgtvPrizeAmount = [];
 });
 
 //validate the prize amount of AGTV code - ZZZ
@@ -337,6 +349,7 @@ Then("I found that agtv code ZZZ has correct prize amount {int}", (amt) => {
       `Total ticket having agtv code ZZZ and  prize amount not equal to ${amt} is: ${this.incorrectAgtvPrizeAmount.length} `
     );
   }
+  this.incorrectAgtvPrizeAmount = [];
 });
 
 //validate the prize amount of AGTV code with different character
@@ -367,6 +380,7 @@ Then(
         `Total ticket having agtv code having different character and  prize amount not equal to ${amt} is: ${this.incorrectAgtvPrizeAmount.length} `
       );
     }
+    this.incorrectAgtvPrizeAmount = [];
   }
 );
 
@@ -386,8 +400,8 @@ Then("I Found that all the win numbers are unique", () => {
       `total tickets with same win numbers are ${this.sameUniqueNumbers.length}`
     );
   }
+  this.sameUniqueNumbers = [];
 });
-
 
 // //validate unique your number
 When("I gone through all the your number", () => {
@@ -420,4 +434,5 @@ Then("I found that all the your number is unique", () => {
       `total tickets with same win numbers are ${this.sameUniqueNumbers.length}`
     );
   }
+  this.sameUniqueNumbers=[];
 });
