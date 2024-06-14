@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 12380069581
+              "duration": 12219214951
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 119712
+              "duration": 126035
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 63628
+              "duration": 51432
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "failed",
-              "duration": 136028,
+              "duration": 135002,
               "error_message": "Error: Total entries is not equal to 1000000. Actual total entries: 2\n    at World.<anonymous> (/home/ravi/Downloads/scratch/macro_testing/js/backup/WNYN-testing-cucmber/features/step_definitions/validateCsv.steps.js:45:11)"
             }
           }
@@ -73,7 +73,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 91498
+              "duration": 101313
             }
           },
           {
@@ -86,7 +86,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 36505
+              "duration": 61167
             }
           },
           {
@@ -99,7 +99,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 100055
+              "duration": 100197
             }
           },
           {
@@ -112,7 +112,7 @@
             },
             "result": {
               "status": "failed",
-              "duration": 122902,
+              "duration": 109472,
               "error_message": "Error: Total entries is not equal to 1000000. Actual total entries: 2\n    at World.<anonymous> (/home/ravi/Downloads/scratch/macro_testing/js/backup/WNYN-testing-cucmber/features/step_definitions/validateCsv.steps.js:59:11)"
             }
           }
@@ -132,7 +132,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 100208
+              "duration": 99418
             }
           },
           {
@@ -145,7 +145,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 62408
+              "duration": 106741
             }
           },
           {
@@ -158,7 +158,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 202289
+              "duration": 136185
             }
           },
           {
@@ -171,7 +171,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 91442
+              "duration": 59688
             }
           }
         ],
@@ -190,7 +190,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 173525
+              "duration": 115418
             }
           },
           {
@@ -203,7 +203,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 43999
+              "duration": 28776
             }
           },
           {
@@ -216,7 +216,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 64616
+              "duration": 45006
             }
           },
           {
@@ -229,7 +229,7 @@
             },
             "result": {
               "status": "failed",
-              "duration": 112456,
+              "duration": 72989,
               "error_message": "Error: Total packs is not equal to 400. Actual total packs: 2\n    at World.<anonymous> (/home/ravi/Downloads/scratch/macro_testing/js/backup/WNYN-testing-cucmber/features/step_definitions/validateCsv.steps.js:71:11)"
             }
           }
@@ -249,7 +249,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 88816
+              "duration": 53554
             }
           },
           {
@@ -262,7 +262,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 53067
+              "duration": 51297
             }
           },
           {
@@ -275,7 +275,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 114230
+              "duration": 66964
             }
           },
           {
@@ -288,7 +288,7 @@
             },
             "result": {
               "status": "failed",
-              "duration": 116580,
+              "duration": 85143,
               "error_message": "Error: Total books in pack - 771 is not equal to 25. Actual total packs: undefined\n    at /home/ravi/Downloads/scratch/macro_testing/js/backup/WNYN-testing-cucmber/features/step_definitions/validateCsv.steps.js:92:13\n    at World.<anonymous> (/home/ravi/Downloads/scratch/macro_testing/js/backup/WNYN-testing-cucmber/features/step_definitions/validateCsv.steps.js:88:22)"
             }
           }
@@ -308,7 +308,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 72987
+              "duration": 48864
             }
           },
           {
@@ -321,7 +321,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 40188
+              "duration": 25173
             }
           },
           {
@@ -334,7 +334,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 121163
+              "duration": 78054
             }
           },
           {
@@ -347,7 +347,7 @@
             },
             "result": {
               "status": "failed",
-              "duration": 144782,
+              "duration": 88578,
               "error_message": "Error: Total books in pack - 771 is not equal to 100. Actual total packs: 1\n    at /home/ravi/Downloads/scratch/macro_testing/js/backup/WNYN-testing-cucmber/features/step_definitions/validateCsv.steps.js:126:17\n    at /home/ravi/Downloads/scratch/macro_testing/js/backup/WNYN-testing-cucmber/features/step_definitions/validateCsv.steps.js:124:18\n    at World.<anonymous> (/home/ravi/Downloads/scratch/macro_testing/js/backup/WNYN-testing-cucmber/features/step_definitions/validateCsv.steps.js:122:26)"
             }
           }
@@ -367,7 +367,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 127672
+              "duration": 143695
             }
           },
           {
@@ -380,7 +380,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 37299
+              "duration": 45819
             }
           },
           {
@@ -393,7 +393,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 46393
+              "duration": 55248
             }
           },
           {
@@ -406,7 +406,7 @@
             },
             "result": {
               "status": "failed",
-              "duration": 78374,
+              "duration": 81439,
               "error_message": "Error: Total unique VIRN is not equal to 1000000. Actual total entries: 2\n    at World.<anonymous> (/home/ravi/Downloads/scratch/macro_testing/js/backup/WNYN-testing-cucmber/features/step_definitions/validateCsv.steps.js:160:11)"
             }
           }
@@ -426,7 +426,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 57698
+              "duration": 63349
             }
           },
           {
@@ -439,7 +439,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 23012
+              "duration": 31058
             }
           },
           {
@@ -452,7 +452,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 63953
+              "duration": 62697
             }
           },
           {
@@ -465,7 +465,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 50876
+              "duration": 53539
             }
           }
         ],
@@ -484,7 +484,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 90763
+              "duration": 84813
             }
           },
           {
@@ -497,7 +497,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 27299
+              "duration": 32573
             }
           },
           {
@@ -510,7 +510,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 60435
+              "duration": 60819
             }
           },
           {
@@ -523,7 +523,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 56284
+              "duration": 58133
             }
           }
         ],
@@ -542,7 +542,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 60584
+              "duration": 63792
             }
           },
           {
@@ -555,7 +555,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 41346
+              "duration": 65754
             }
           },
           {
@@ -568,7 +568,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 63400
+              "duration": 72031
             }
           },
           {
@@ -581,7 +581,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 62581
+              "duration": 87218
             }
           }
         ],
@@ -600,7 +600,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 55512
+              "duration": 107119
             }
           },
           {
@@ -613,7 +613,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 23965
+              "duration": 35229
             }
           },
           {
@@ -626,7 +626,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 111092
+              "duration": 166840
             }
           },
           {
@@ -639,7 +639,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 49689
+              "duration": 70516
             }
           }
         ],
@@ -658,7 +658,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 56158
+              "duration": 84480
             }
           },
           {
@@ -671,7 +671,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 20164
+              "duration": 33884
             }
           },
           {
@@ -684,7 +684,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 68621
+              "duration": 101343
             }
           },
           {
@@ -697,7 +697,7 @@
             },
             "result": {
               "status": "failed",
-              "duration": 72364,
+              "duration": 110822,
               "error_message": "Error: Total ticket having agtv code AAA and  prize amount not equal to 10 is: 1 \n    at World.<anonymous> (/home/ravi/Downloads/scratch/macro_testing/js/backup/WNYN-testing-cucmber/features/step_definitions/validateCsv.steps.js:246:11)"
             }
           }
@@ -717,7 +717,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 83929
+              "duration": 48906
             }
           },
           {
@@ -730,7 +730,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 36184
+              "duration": 22440
             }
           },
           {
@@ -743,7 +743,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 106700
+              "duration": 75570
             }
           },
           {
@@ -756,7 +756,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 70207
+              "duration": 59200
             }
           }
         ],
@@ -775,7 +775,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 63488
+              "duration": 42882
             }
           },
           {
@@ -788,7 +788,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 29884
+              "duration": 28280
             }
           },
           {
@@ -801,7 +801,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 74183
+              "duration": 56323
             }
           },
           {
@@ -814,7 +814,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 60272
+              "duration": 55049
             }
           }
         ],
@@ -833,7 +833,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 49826
+              "duration": 44987
             }
           },
           {
@@ -846,7 +846,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30601
+              "duration": 26401
             }
           },
           {
@@ -859,7 +859,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 71832
+              "duration": 80509
             }
           },
           {
@@ -872,7 +872,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 56579
+              "duration": 55372
             }
           }
         ],
@@ -891,7 +891,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 44786
+              "duration": 32002
             }
           },
           {
@@ -904,7 +904,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 26152
+              "duration": 29171
             }
           },
           {
@@ -917,7 +917,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 66896
+              "duration": 55987
             }
           },
           {
@@ -930,7 +930,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 52723
+              "duration": 49641
             }
           }
         ],
@@ -949,7 +949,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 47058
+              "duration": 36636
             }
           },
           {
@@ -962,7 +962,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 27399
+              "duration": 24153
             }
           },
           {
@@ -975,7 +975,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 69102
+              "duration": 69268
             }
           },
           {
@@ -988,7 +988,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 55034
+              "duration": 60332
             }
           }
         ],
@@ -1007,7 +1007,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 46562
+              "duration": 48425
             }
           },
           {
@@ -1020,7 +1020,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 25271
+              "duration": 27514
             }
           },
           {
@@ -1033,7 +1033,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 66682
+              "duration": 66921
             }
           },
           {
@@ -1046,7 +1046,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 67940
+              "duration": 55317
             }
           }
         ],
@@ -1065,7 +1065,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 126073
+              "duration": 134967
             }
           },
           {
@@ -1078,7 +1078,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 26933
+              "duration": 23755
             }
           },
           {
@@ -1091,7 +1091,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 140228
+              "duration": 117440
             }
           },
           {
@@ -1104,7 +1104,65 @@
             },
             "result": {
               "status": "passed",
-              "duration": 58723
+              "duration": 47930
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "wnyn-csv-file-validations;validate-win-number-uniquenesss",
+        "keyword": "Scenario",
+        "line": 104,
+        "name": "validate win number uniquenesss",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 39202
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 105,
+            "name": "I have loaded the CSV file",
+            "match": {
+              "location": "features/step_definitions/validateCsv.steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25511
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 106,
+            "name": "I gone through all the win number",
+            "match": {
+              "location": "features/step_definitions/validateCsv.steps.js:374"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 72208
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 107,
+            "name": "I Found that all the win numbers are unique",
+            "match": {
+              "location": "features/step_definitions/validateCsv.steps.js:383"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48024
             }
           }
         ],

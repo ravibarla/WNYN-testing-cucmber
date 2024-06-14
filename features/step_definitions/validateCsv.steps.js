@@ -370,4 +370,20 @@ Then(
   }
 );
 
+// //validate unique win number
+When("I gone through all the win number", () => {
+  this.sameUniqueNumbers = csvData.filter(
+    (data) =>
+      data.wnumber_1 == data.wnumber_2 ||
+      data.wnumber_1 == data.wnumber_3 ||
+      data.wnumber_2 == data.wnumber_3
+  );
+});
 
+Then("I Found that all the win numbers are unique", () => {
+  if (this.sameUniqueNumbers.length !== 0) {
+    throw new Error(
+      `total tickets with same win numbers are ${this.sameUniqueNumbers.length}`
+    );
+  }
+});

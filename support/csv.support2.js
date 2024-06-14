@@ -13,7 +13,7 @@ const readCsvFile = async (filepath) => {
   return new Promise((resolve, reect) => {
     // Read CSV file and process data
     fs.createReadStream(filepath)
-      .pipe(csv({ separator: "\t" }))
+      .pipe(csv({ separator: "," }))
       .on("headers", (headers) => {
         // Merge columns agtv_1 to agtv_5 into one header 'agtv'
         headers.forEach((header) => {
@@ -42,13 +42,13 @@ const readCsvFile = async (filepath) => {
 
         // Store row in data structure
         if (count < 2) {
-        csvData.push(row);
+          csvData.push(row);
         }
         count++;
       })
       .on("end", () => {
         // console.log(csvHeaders);
-        console.log(csvData);
+        // console.log(csvData);
         // Further processing or use of csvHeaders and csvData
         resolve({ csvHeaders: Object.values(csvHeaders), csvData });
         // return { csvHeaders, csvData }
@@ -97,7 +97,6 @@ const organisePackBookTicket = (csvData) => {
       }),
     };
   });
-  // console.log("result :", JSON.stringify(result));
   return result;
 };
 module.exports = { readCsvFile, organisePackBookTicket };

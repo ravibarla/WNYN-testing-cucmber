@@ -101,3 +101,8 @@ Feature: WNYN CSV FILE Validations
     When I calculate the agtv code having different character with its prize amount 0
     Then I found that agtv code having different character has correct prize amount 0
 
+  Scenario: validate win number uniquenesss
+    Given I have loaded the CSV file
+    When I gone through all the win number
+    Then I Found that all the win numbers are unique
+
