@@ -8,6 +8,10 @@ const {
   organisePackBookTicket,
 } = require("../../support/csv.support2");
 // const organisePackBookTicket = require("../../support/csv.support");
+
+//game property
+const { property, symbolAmount } = require("../../game_config/WNYN_property");
+
 //define path and columns to extract
 const filepath = path.join(path.resolve(), "data", "WNYN_DATA.csv");
 let csvHeaders = [];
@@ -434,5 +438,77 @@ Then("I found that all the your number is unique", () => {
       `total tickets with same win numbers are ${this.sameUniqueNumbers.length}`
     );
   }
-  this.sameUniqueNumbers=[];
+  this.sameUniqueNumbers = [];
+});
+
+// validate valid characters of symbol amount
+When("I gone through all the characters of the symbol amount", () => {
+  this.incorrectSymbolCount = 0;
+});
+Then(
+  "I found that all tickets having valid character of the symbol amount:",
+  (symbols) => {
+    let symbolList = new Set(symbols.raw().flat());
+    csvData.forEach((data) => {
+      for (let i = 1; i <= 10; i++) {
+        let current_symbol = data[`symbol_${i}`];
+        if (!symbolList.has(current_symbol)) {
+          this.incorrectSymbolCount++;
+        }
+      }
+    });
+
+    if (this.incorrectSymbolCount !== 0) {
+      throw new Error(
+        `total incorrect symbols are : ${this.incorrectSymbolCount}`
+      );
+    }
+    // this.incorrectSymbolCount = [];
+    symbolList = new Set();
+  }
+);
+
+//validate valid amount with the matched pattern
+When("I gone through all the patttern", () => {
+  let patternAmount = [];
+  this.incorrectAccumulatedAmountCount = 0;
+  this.runError = true;
+  csvData.forEach((data) => {
+    //iterate over your number
+    for (let i = 1; i <= property.total_your_number; i++) {
+      //iterate over win numbers
+      for (let j = 1; j <= property.total_win_number; j++) {
+        let ynumber = data[`ynumber_${i}`];
+        let wnumber = data[`wnumber_${j}`];
+        if (data[`ynumber_${i}`] == data[`wnumber_${j}`]) {
+          let yNumberSymbol = data[`symbol_${i}`];
+          let yNumberSymbolAmount = symbolAmount[yNumberSymbol];
+          //pushing the amount with the matching pattern
+          patternAmount.push(yNumberSymbolAmount);
+        }
+      }
+    }
+
+    //Accumulation of amount with the matching pattern
+    let accumulatedAmount = patternAmount.reduce(
+      (accumulator, currentValue) => {
+        return accumulator + currentValue;
+      },
+      0
+    );
+    //compare the accumulated amount with the given amount
+    if (accumulatedAmount !== parseInt(data.amount)) {
+      this.incorrectAccumulatedAmountCount++;
+    }
+    //reset the list
+    patternAmount = [];
+  });
+});
+
+Then("I found that all pattern has correct amount", () => {
+  if (this.incorrectAccumulatedAmountCount !== 0) {
+    throw new Error(
+      `incorrectAccumulatedAmountCount :${this.incorrectAccumulatedAmountCount}`
+    );
+  }
 });

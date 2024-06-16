@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 18256873384
+              "duration": 23143474799
             }
           },
           {
@@ -23,11 +23,11 @@
             "line": 5,
             "name": "I have loaded the CSV file",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:34"
+              "location": "features\\step_definitions\\validateCsv.steps.js:38"
             },
             "result": {
               "status": "passed",
-              "duration": 319126
+              "duration": 271800
             }
           },
           {
@@ -36,11 +36,11 @@
             "line": 6,
             "name": "I calculate the total entries",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:39"
+              "location": "features\\step_definitions\\validateCsv.steps.js:43"
             },
             "result": {
               "status": "passed",
-              "duration": 89115
+              "duration": 84399
             }
           },
           {
@@ -49,11 +49,11 @@
             "line": 7,
             "name": "the total entries is 1000000",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:43"
+              "location": "features\\step_definitions\\validateCsv.steps.js:47"
             },
             "result": {
               "status": "passed",
-              "duration": 164946
+              "duration": 188600
             }
           }
         ],
@@ -72,7 +72,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 559876
+              "duration": 425100
             }
           },
           {
@@ -81,11 +81,11 @@
             "line": 10,
             "name": "I have loaded the CSV file",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:34"
+              "location": "features\\step_definitions\\validateCsv.steps.js:38"
             },
             "result": {
               "status": "passed",
-              "duration": 102686
+              "duration": 55000
             }
           },
           {
@@ -94,11 +94,11 @@
             "line": 11,
             "name": "I calculate the unique tickets",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:52"
+              "location": "features\\step_definitions\\validateCsv.steps.js:56"
             },
             "result": {
               "status": "passed",
-              "duration": 542269925
+              "duration": 653520599
             }
           },
           {
@@ -107,11 +107,11 @@
             "line": 12,
             "name": "the total unique tickets is 1000000",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:57"
+              "location": "features\\step_definitions\\validateCsv.steps.js:61"
             },
             "result": {
               "status": "passed",
-              "duration": 206586
+              "duration": 183899
             }
           }
         ],
@@ -130,7 +130,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 104001
+              "duration": 111600
             }
           },
           {
@@ -139,11 +139,11 @@
             "line": 15,
             "name": "I have loaded the CSV file",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:34"
+              "location": "features\\step_definitions\\validateCsv.steps.js:38"
             },
             "result": {
               "status": "passed",
-              "duration": 108605
+              "duration": 178099
             }
           },
           {
@@ -152,11 +152,11 @@
             "line": 16,
             "name": "I calculate the length of tickets",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:139"
+              "location": "features\\step_definitions\\validateCsv.steps.js:143"
             },
             "result": {
               "status": "passed",
-              "duration": 117441073
+              "duration": 66809000
             }
           },
           {
@@ -165,11 +165,11 @@
             "line": 17,
             "name": "the length of tickets is 12",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:148"
+              "location": "features\\step_definitions\\validateCsv.steps.js:152"
             },
             "result": {
               "status": "passed",
-              "duration": 187721
+              "duration": 172700
             }
           }
         ],
@@ -188,7 +188,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 163273
+              "duration": 178700
             }
           },
           {
@@ -197,11 +197,11 @@
             "line": 20,
             "name": "I have loaded the CSV file",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:34"
+              "location": "features\\step_definitions\\validateCsv.steps.js:38"
             },
             "result": {
               "status": "passed",
-              "duration": 62222
+              "duration": 59300
             }
           },
           {
@@ -210,11 +210,11 @@
             "line": 21,
             "name": "I calculate the total packs",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:67"
+              "location": "features\\step_definitions\\validateCsv.steps.js:71"
             },
             "result": {
               "status": "passed",
-              "duration": 61347
+              "duration": 154399
             }
           },
           {
@@ -223,11 +223,11 @@
             "line": 22,
             "name": "I found that total packs is 400",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:70"
+              "location": "features\\step_definitions\\validateCsv.steps.js:74"
             },
             "result": {
               "status": "passed",
-              "duration": 86270
+              "duration": 123099
             }
           }
         ],
@@ -246,7 +246,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 56859
+              "duration": 92099
             }
           },
           {
@@ -255,11 +255,11 @@
             "line": 26,
             "name": "I have loaded the CSV file",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:34"
+              "location": "features\\step_definitions\\validateCsv.steps.js:38"
             },
             "result": {
               "status": "passed",
-              "duration": 31976
+              "duration": 71100
             }
           },
           {
@@ -268,11 +268,11 @@
             "line": 27,
             "name": "I calculate the total books in each pack",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:79"
+              "location": "features\\step_definitions\\validateCsv.steps.js:83"
             },
             "result": {
               "status": "passed",
-              "duration": 199998
+              "duration": 503600
             }
           },
           {
@@ -281,11 +281,11 @@
             "line": 28,
             "name": "I found that total books in each pack is 25",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:88"
+              "location": "features\\step_definitions\\validateCsv.steps.js:92"
             },
             "result": {
               "status": "passed",
-              "duration": 103630
+              "duration": 253399
             }
           }
         ],
@@ -304,7 +304,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 51613
+              "duration": 143100
             }
           },
           {
@@ -313,11 +313,11 @@
             "line": 32,
             "name": "I have loaded the CSV file",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:34"
+              "location": "features\\step_definitions\\validateCsv.steps.js:38"
             },
             "result": {
               "status": "passed",
-              "duration": 27209
+              "duration": 66299
             }
           },
           {
@@ -326,11 +326,11 @@
             "line": 33,
             "name": "I calculate the total tickets in each books in each pack",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:104"
+              "location": "features\\step_definitions\\validateCsv.steps.js:108"
             },
             "result": {
               "status": "passed",
-              "duration": 838702
+              "duration": 1743200
             }
           },
           {
@@ -339,11 +339,11 @@
             "line": 34,
             "name": "I found that total tickets in each books in each pack is 100",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:121"
+              "location": "features\\step_definitions\\validateCsv.steps.js:125"
             },
             "result": {
               "status": "passed",
-              "duration": 577233
+              "duration": 1331400
             }
           }
         ],
@@ -362,7 +362,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 99286
+              "duration": 170500
             }
           },
           {
@@ -371,11 +371,11 @@
             "line": 37,
             "name": "I have loaded the CSV file",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:34"
+              "location": "features\\step_definitions\\validateCsv.steps.js:38"
             },
             "result": {
               "status": "passed",
-              "duration": 51926
+              "duration": 68100
             }
           },
           {
@@ -384,11 +384,11 @@
             "line": 38,
             "name": "I calculate the total unique VIRN",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:158"
+              "location": "features\\step_definitions\\validateCsv.steps.js:162"
             },
             "result": {
               "status": "passed",
-              "duration": 58273
+              "duration": 141100
             }
           },
           {
@@ -397,11 +397,11 @@
             "line": 39,
             "name": "the total unique VIRN is 1000000",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:162"
+              "location": "features\\step_definitions\\validateCsv.steps.js:166"
             },
             "result": {
               "status": "passed",
-              "duration": 62211
+              "duration": 97799
             }
           }
         ],
@@ -420,7 +420,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 57390
+              "duration": 92799
             }
           },
           {
@@ -429,11 +429,11 @@
             "line": 42,
             "name": "I have loaded the CSV file",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:34"
+              "location": "features\\step_definitions\\validateCsv.steps.js:38"
             },
             "result": {
               "status": "passed",
-              "duration": 38700
+              "duration": 43100
             }
           },
           {
@@ -442,11 +442,11 @@
             "line": 43,
             "name": "I calculate the length of VIRN",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:171"
+              "location": "features\\step_definitions\\validateCsv.steps.js:175"
             },
             "result": {
               "status": "passed",
-              "duration": 92481882
+              "duration": 68163300
             }
           },
           {
@@ -455,11 +455,11 @@
             "line": 44,
             "name": "the length of VIRN is 15",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:180"
+              "location": "features\\step_definitions\\validateCsv.steps.js:184"
             },
             "result": {
               "status": "passed",
-              "duration": 134705
+              "duration": 149299
             }
           }
         ],
@@ -478,7 +478,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 71980
+              "duration": 86599
             }
           },
           {
@@ -487,11 +487,11 @@
             "line": 47,
             "name": "I have loaded the CSV file",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:34"
+              "location": "features\\step_definitions\\validateCsv.steps.js:38"
             },
             "result": {
               "status": "passed",
-              "duration": 51458
+              "duration": 50699
             }
           },
           {
@@ -500,11 +500,11 @@
             "line": 48,
             "name": "I calculate the starting 3digit of VIRN",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:189"
+              "location": "features\\step_definitions\\validateCsv.steps.js:193"
             },
             "result": {
               "status": "passed",
-              "duration": 111008946
+              "duration": 151673999
             }
           },
           {
@@ -513,11 +513,11 @@
             "line": 49,
             "name": "starting 3digit of VIRN is 183",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:198"
+              "location": "features\\step_definitions\\validateCsv.steps.js:202"
             },
             "result": {
               "status": "passed",
-              "duration": 234265
+              "duration": 257999
             }
           }
         ],
@@ -536,7 +536,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 88636
+              "duration": 167799
             }
           },
           {
@@ -545,11 +545,11 @@
             "line": 52,
             "name": "I have loaded the CSV file",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:34"
+              "location": "features\\step_definitions\\validateCsv.steps.js:38"
             },
             "result": {
               "status": "passed",
-              "duration": 42724
+              "duration": 111300
             }
           },
           {
@@ -558,11 +558,11 @@
             "line": 53,
             "name": "I calculate length of AGTV code",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:207"
+              "location": "features\\step_definitions\\validateCsv.steps.js:211"
             },
             "result": {
               "status": "passed",
-              "duration": 95696907
+              "duration": 72054600
             }
           },
           {
@@ -571,11 +571,11 @@
             "line": 54,
             "name": "Found that every ticket's agtv length is 3",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:212"
+              "location": "features\\step_definitions\\validateCsv.steps.js:216"
             },
             "result": {
               "status": "passed",
-              "duration": 158583
+              "duration": 173500
             }
           }
         ],
@@ -594,7 +594,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 140064
+              "duration": 207699
             }
           },
           {
@@ -603,11 +603,11 @@
             "line": 57,
             "name": "I have loaded the CSV file",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:34"
+              "location": "features\\step_definitions\\validateCsv.steps.js:38"
             },
             "result": {
               "status": "passed",
-              "duration": 34764
+              "duration": 40299
             }
           },
           {
@@ -616,11 +616,11 @@
             "line": 58,
             "name": "I calculate the agtv code characters",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:222"
+              "location": "features\\step_definitions\\validateCsv.steps.js:226"
             },
             "result": {
               "status": "passed",
-              "duration": 124189807
+              "duration": 85526100
             }
           },
           {
@@ -629,11 +629,11 @@
             "line": 59,
             "name": "Found that every ticket's agtv consist the character in between range is [A, B, C, J, N, S, Z, k]",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:229"
+              "location": "features\\step_definitions\\validateCsv.steps.js:233"
             },
             "result": {
               "status": "passed",
-              "duration": 135571
+              "duration": 138800
             }
           }
         ],
@@ -652,7 +652,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 93329
+              "duration": 100500
             }
           },
           {
@@ -661,11 +661,11 @@
             "line": 62,
             "name": "I have loaded the CSV file",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:34"
+              "location": "features\\step_definitions\\validateCsv.steps.js:38"
             },
             "result": {
               "status": "passed",
-              "duration": 29591
+              "duration": 35299
             }
           },
           {
@@ -674,11 +674,11 @@
             "line": 63,
             "name": "I calculate the agtv code AAA with its prize amount 10",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:244"
+              "location": "features\\step_definitions\\validateCsv.steps.js:248"
             },
             "result": {
               "status": "passed",
-              "duration": 127060949
+              "duration": 122109099
             }
           },
           {
@@ -687,12 +687,12 @@
             "line": 64,
             "name": "I found that agtv code AAA has correct prize amount 10",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:250"
+              "location": "features\\step_definitions\\validateCsv.steps.js:254"
             },
             "result": {
               "status": "failed",
-              "duration": 194667,
-              "error_message": "Error: Total ticket having agtv code AAA and  prize amount not equal to 10 is: 211213 \n    at World.<anonymous> (/home/ravi/Downloads/scratch/macro_testing/js/backup/WNYN-testing-cucmber/features/step_definitions/validateCsv.steps.js:252:11)"
+              "duration": 210599,
+              "error_message": "Error: Total ticket having agtv code AAA and  prize amount not equal to 10 is: 211213 \n    at World.<anonymous> (F:\\coding\\cucumber\\js-testing\\just_now\\WNYN-testing-cucmber\\features\\step_definitions\\validateCsv.steps.js:256:11)"
             }
           }
         ],
@@ -711,7 +711,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 141232
+              "duration": 136000
             }
           },
           {
@@ -720,11 +720,11 @@
             "line": 67,
             "name": "I have loaded the CSV file",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:34"
+              "location": "features\\step_definitions\\validateCsv.steps.js:38"
             },
             "result": {
               "status": "passed",
-              "duration": 32805
+              "duration": 42699
             }
           },
           {
@@ -733,11 +733,11 @@
             "line": 68,
             "name": "I calculate the agtv code BBB with its prize amount 20",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:260"
+              "location": "features\\step_definitions\\validateCsv.steps.js:264"
             },
             "result": {
               "status": "passed",
-              "duration": 118711555
+              "duration": 99905199
             }
           },
           {
@@ -746,12 +746,12 @@
             "line": 69,
             "name": "I found that agtv code BBB has correct prize amount 20",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:266"
+              "location": "features\\step_definitions\\validateCsv.steps.js:270"
             },
             "result": {
               "status": "failed",
-              "duration": 177343,
-              "error_message": "Error: Total ticket having agtv code BBB and  prize amount not equal to 20} is: 121234 \n    at World.<anonymous> (/home/ravi/Downloads/scratch/macro_testing/js/backup/WNYN-testing-cucmber/features/step_definitions/validateCsv.steps.js:268:11)"
+              "duration": 368999,
+              "error_message": "Error: Total ticket having agtv code BBB and  prize amount not equal to 20} is: 121234 \n    at World.<anonymous> (F:\\coding\\cucumber\\js-testing\\just_now\\WNYN-testing-cucmber\\features\\step_definitions\\validateCsv.steps.js:272:11)"
             }
           }
         ],
@@ -770,7 +770,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 69081
+              "duration": 187099
             }
           },
           {
@@ -779,11 +779,11 @@
             "line": 73,
             "name": "I have loaded the CSV file",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:34"
+              "location": "features\\step_definitions\\validateCsv.steps.js:38"
             },
             "result": {
               "status": "passed",
-              "duration": 28765
+              "duration": 113600
             }
           },
           {
@@ -792,11 +792,11 @@
             "line": 74,
             "name": "I calculate the agtv code CCC with its prize amount 50",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:276"
+              "location": "features\\step_definitions\\validateCsv.steps.js:280"
             },
             "result": {
               "status": "passed",
-              "duration": 101259519
+              "duration": 85567299
             }
           },
           {
@@ -805,12 +805,12 @@
             "line": 75,
             "name": "I found that agtv code CCC has correct prize amount 50",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:282"
+              "location": "features\\step_definitions\\validateCsv.steps.js:286"
             },
             "result": {
               "status": "failed",
-              "duration": 157410,
-              "error_message": "Error: Total ticket having agtv code CCC and  prize amount not equal to 50 is: 31191 \n    at World.<anonymous> (/home/ravi/Downloads/scratch/macro_testing/js/backup/WNYN-testing-cucmber/features/step_definitions/validateCsv.steps.js:284:11)"
+              "duration": 179899,
+              "error_message": "Error: Total ticket having agtv code CCC and  prize amount not equal to 50 is: 31191 \n    at World.<anonymous> (F:\\coding\\cucumber\\js-testing\\just_now\\WNYN-testing-cucmber\\features\\step_definitions\\validateCsv.steps.js:288:11)"
             }
           }
         ],
@@ -829,7 +829,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 53652
+              "duration": 57300
             }
           },
           {
@@ -838,11 +838,11 @@
             "line": 78,
             "name": "I have loaded the CSV file",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:34"
+              "location": "features\\step_definitions\\validateCsv.steps.js:38"
             },
             "result": {
               "status": "passed",
-              "duration": 28247
+              "duration": 37800
             }
           },
           {
@@ -851,11 +851,11 @@
             "line": 79,
             "name": "I calculate the agtv code JJJ with its prize amount 100",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:292"
+              "location": "features\\step_definitions\\validateCsv.steps.js:296"
             },
             "result": {
               "status": "passed",
-              "duration": 100224392
+              "duration": 80067600
             }
           },
           {
@@ -864,12 +864,12 @@
             "line": 80,
             "name": "I found that agtv code JJJ has correct prize amount 100",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:298"
+              "location": "features\\step_definitions\\validateCsv.steps.js:302"
             },
             "result": {
               "status": "failed",
-              "duration": 170762,
-              "error_message": "Error: Total ticket having agtv code JJJ and  prize amount not equal to 100 is: 21196 \n    at World.<anonymous> (/home/ravi/Downloads/scratch/macro_testing/js/backup/WNYN-testing-cucmber/features/step_definitions/validateCsv.steps.js:300:11)"
+              "duration": 360399,
+              "error_message": "Error: Total ticket having agtv code JJJ and  prize amount not equal to 100 is: 21196 \n    at World.<anonymous> (F:\\coding\\cucumber\\js-testing\\just_now\\WNYN-testing-cucmber\\features\\step_definitions\\validateCsv.steps.js:304:11)"
             }
           }
         ],
@@ -888,7 +888,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 52197
+              "duration": 124299
             }
           },
           {
@@ -897,11 +897,11 @@
             "line": 84,
             "name": "I have loaded the CSV file",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:34"
+              "location": "features\\step_definitions\\validateCsv.steps.js:38"
             },
             "result": {
               "status": "passed",
-              "duration": 44343
+              "duration": 88700
             }
           },
           {
@@ -910,11 +910,11 @@
             "line": 85,
             "name": "I calculate the agtv code NNN with its prize amount 500",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:308"
+              "location": "features\\step_definitions\\validateCsv.steps.js:312"
             },
             "result": {
               "status": "passed",
-              "duration": 97268640
+              "duration": 76670999
             }
           },
           {
@@ -923,12 +923,12 @@
             "line": 86,
             "name": "I found that agtv code NNN has correct prize amount 500",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:314"
+              "location": "features\\step_definitions\\validateCsv.steps.js:318"
             },
             "result": {
               "status": "failed",
-              "duration": 169863,
-              "error_message": "Error: Total ticket having agtv code NNN and  prize amount not equal to 500 is: 2598 \n    at World.<anonymous> (/home/ravi/Downloads/scratch/macro_testing/js/backup/WNYN-testing-cucmber/features/step_definitions/validateCsv.steps.js:316:11)"
+              "duration": 178899,
+              "error_message": "Error: Total ticket having agtv code NNN and  prize amount not equal to 500 is: 2598 \n    at World.<anonymous> (F:\\coding\\cucumber\\js-testing\\just_now\\WNYN-testing-cucmber\\features\\step_definitions\\validateCsv.steps.js:320:11)"
             }
           }
         ],
@@ -947,7 +947,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 54228
+              "duration": 55899
             }
           },
           {
@@ -956,11 +956,11 @@
             "line": 89,
             "name": "I have loaded the CSV file",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:34"
+              "location": "features\\step_definitions\\validateCsv.steps.js:38"
             },
             "result": {
               "status": "passed",
-              "duration": 33659
+              "duration": 36200
             }
           },
           {
@@ -969,11 +969,11 @@
             "line": 90,
             "name": "I calculate the agtv code SSS with its prize amount 1000",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:324"
+              "location": "features\\step_definitions\\validateCsv.steps.js:328"
             },
             "result": {
               "status": "passed",
-              "duration": 96462806
+              "duration": 76974599
             }
           },
           {
@@ -982,12 +982,12 @@
             "line": 91,
             "name": "I found that agtv code SSS has correct prize amount 1000",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:330"
+              "location": "features\\step_definitions\\validateCsv.steps.js:334"
             },
             "result": {
               "status": "failed",
-              "duration": 173194,
-              "error_message": "Error: Total ticket having agtv code SSS and  prize amount not equal to 1000 is: 1983 \n    at World.<anonymous> (/home/ravi/Downloads/scratch/macro_testing/js/backup/WNYN-testing-cucmber/features/step_definitions/validateCsv.steps.js:332:11)"
+              "duration": 176600,
+              "error_message": "Error: Total ticket having agtv code SSS and  prize amount not equal to 1000 is: 1983 \n    at World.<anonymous> (F:\\coding\\cucumber\\js-testing\\just_now\\WNYN-testing-cucmber\\features\\step_definitions\\validateCsv.steps.js:336:11)"
             }
           }
         ],
@@ -1006,7 +1006,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 76713
+              "duration": 54199
             }
           },
           {
@@ -1015,11 +1015,11 @@
             "line": 95,
             "name": "I have loaded the CSV file",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:34"
+              "location": "features\\step_definitions\\validateCsv.steps.js:38"
             },
             "result": {
               "status": "passed",
-              "duration": 28493
+              "duration": 36100
             }
           },
           {
@@ -1028,11 +1028,11 @@
             "line": 96,
             "name": "I calculate the agtv code ZZZ with its prize amount 400000",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:340"
+              "location": "features\\step_definitions\\validateCsv.steps.js:344"
             },
             "result": {
               "status": "passed",
-              "duration": 99018857
+              "duration": 79960100
             }
           },
           {
@@ -1041,12 +1041,12 @@
             "line": 97,
             "name": "I found that agtv code ZZZ has correct prize amount 400000",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:346"
+              "location": "features\\step_definitions\\validateCsv.steps.js:350"
             },
             "result": {
               "status": "failed",
-              "duration": 178256,
-              "error_message": "Error: Total ticket having agtv code ZZZ and  prize amount not equal to 400000 is: 1316 \n    at World.<anonymous> (/home/ravi/Downloads/scratch/macro_testing/js/backup/WNYN-testing-cucmber/features/step_definitions/validateCsv.steps.js:348:11)"
+              "duration": 180299,
+              "error_message": "Error: Total ticket having agtv code ZZZ and  prize amount not equal to 400000 is: 1316 \n    at World.<anonymous> (F:\\coding\\cucumber\\js-testing\\just_now\\WNYN-testing-cucmber\\features\\step_definitions\\validateCsv.steps.js:352:11)"
             }
           }
         ],
@@ -1065,7 +1065,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 73487
+              "duration": 59499
             }
           },
           {
@@ -1074,11 +1074,11 @@
             "line": 100,
             "name": "I have loaded the CSV file",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:34"
+              "location": "features\\step_definitions\\validateCsv.steps.js:38"
             },
             "result": {
               "status": "passed",
-              "duration": 27882
+              "duration": 36800
             }
           },
           {
@@ -1087,11 +1087,11 @@
             "line": 101,
             "name": "I calculate the agtv code having different character with its prize amount 0",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:356"
+              "location": "features\\step_definitions\\validateCsv.steps.js:360"
             },
             "result": {
               "status": "passed",
-              "duration": 675232604
+              "duration": 1100061000
             }
           },
           {
@@ -1100,11 +1100,11 @@
             "line": 102,
             "name": "I found that agtv code having different character has correct prize amount 0",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:375"
+              "location": "features\\step_definitions\\validateCsv.steps.js:379"
             },
             "result": {
               "status": "passed",
-              "duration": 128892
+              "duration": 154900
             }
           }
         ],
@@ -1123,7 +1123,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 60073
+              "duration": 77600
             }
           },
           {
@@ -1132,11 +1132,11 @@
             "line": 105,
             "name": "I have loaded the CSV file",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:34"
+              "location": "features\\step_definitions\\validateCsv.steps.js:38"
             },
             "result": {
               "status": "passed",
-              "duration": 43366
+              "duration": 37000
             }
           },
           {
@@ -1145,11 +1145,11 @@
             "line": 106,
             "name": "I gone through all the win number",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:388"
+              "location": "features\\step_definitions\\validateCsv.steps.js:392"
             },
             "result": {
               "status": "passed",
-              "duration": 228053936
+              "duration": 178973099
             }
           },
           {
@@ -1158,11 +1158,11 @@
             "line": 107,
             "name": "I Found that all the win numbers are unique",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:397"
+              "location": "features\\step_definitions\\validateCsv.steps.js:401"
             },
             "result": {
               "status": "passed",
-              "duration": 127882
+              "duration": 198000
             }
           }
         ],
@@ -1181,7 +1181,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 69300
+              "duration": 232100
             }
           },
           {
@@ -1190,11 +1190,11 @@
             "line": 110,
             "name": "I have loaded the CSV file",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:34"
+              "location": "features\\step_definitions\\validateCsv.steps.js:38"
             },
             "result": {
               "status": "passed",
-              "duration": 45149
+              "duration": 35599
             }
           },
           {
@@ -1203,11 +1203,11 @@
             "line": 111,
             "name": "I gone through all the your number",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:407"
+              "location": "features\\step_definitions\\validateCsv.steps.js:411"
             },
             "result": {
               "status": "passed",
-              "duration": 1047458852
+              "duration": 1323532100
             }
           },
           {
@@ -1216,12 +1216,178 @@
             "line": 112,
             "name": "I found that all the your number is unique",
             "match": {
-              "location": "features/step_definitions/validateCsv.steps.js:431"
+              "location": "features\\step_definitions\\validateCsv.steps.js:435"
             },
             "result": {
               "status": "failed",
-              "duration": 201102,
-              "error_message": "Error: total tickets with same win numbers are 1000000\n    at World.<anonymous> (/home/ravi/Downloads/scratch/macro_testing/js/backup/WNYN-testing-cucmber/features/step_definitions/validateCsv.steps.js:433:11)"
+              "duration": 307700,
+              "error_message": "Error: total tickets with same win numbers are 1000000\n    at World.<anonymous> (F:\\coding\\cucumber\\js-testing\\just_now\\WNYN-testing-cucmber\\features\\step_definitions\\validateCsv.steps.js:437:11)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "wnyn-csv-file-validations;validate-valid-characters-of-symbol-amount",
+        "keyword": "Scenario",
+        "line": 114,
+        "name": "validate valid characters of symbol amount",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 70899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 115,
+            "name": "I have loaded the CSV file",
+            "match": {
+              "location": "features\\step_definitions\\validateCsv.steps.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 116,
+            "name": "I gone through all the characters of the symbol amount",
+            "match": {
+              "location": "features\\step_definitions\\validateCsv.steps.js:445"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 71799
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "prize symbol"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "A"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "B"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "C"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "J"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "N"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "S"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Z"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      ""
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 117,
+            "name": "I found that all tickets having valid character of the symbol amount:",
+            "match": {
+              "location": "features\\step_definitions\\validateCsv.steps.js:448"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1224749499
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "wnyn-csv-file-validations;validate-valid-amount-with-the-matched-pattern",
+        "keyword": "Scenario",
+        "line": 128,
+        "name": "validate valid amount with the matched pattern",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 124400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 129,
+            "name": "I have loaded the CSV file",
+            "match": {
+              "location": "features\\step_definitions\\validateCsv.steps.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 76699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 130,
+            "name": "I gone through all the patttern",
+            "match": {
+              "location": "features\\step_definitions\\validateCsv.steps.js:472"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4919513099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 131,
+            "name": "I found that all pattern has correct amount",
+            "match": {
+              "location": "features\\step_definitions\\validateCsv.steps.js:508"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 239000
             }
           }
         ],
@@ -1234,6 +1400,6 @@
     "keyword": "Feature",
     "name": "WNYN CSV FILE Validations",
     "tags": [],
-    "uri": "features/validateCsv.feature"
+    "uri": "features\\validateCsv.feature"
   }
 ]

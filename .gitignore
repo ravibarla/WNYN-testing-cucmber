@@ -3,3 +3,4 @@ package-lock.json
 data/*.csv
 test*.js
 validateCsv.js
+data/.~lock.WNYN_DATA.csv#

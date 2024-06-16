@@ -110,3 +110,23 @@ Feature: WNYN CSV FILE Validations
     Given I have loaded the CSV file
     When I gone through all the your number
     Then I found that all the your number is unique
+
+  Scenario: validate valid characters of symbol amount 
+    Given I have loaded the CSV file
+    When I gone through all the characters of the symbol amount 
+    Then I found that all tickets having valid character of the symbol amount: 
+    | prize symbol |
+    | A |
+    | B |
+    | C |
+    | J |
+    | N |
+    | S |
+    | Z | 
+    |   |
+
+  Scenario: validate valid amount with the matched pattern 
+    Given I have loaded the CSV file
+    When I gone through all the patttern 
+    Then I found that all pattern has correct amount 
+  

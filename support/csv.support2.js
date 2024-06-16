@@ -13,6 +13,8 @@ const readCsvFile = async (filepath) => {
   return new Promise((resolve, reect) => {
     // Read CSV file and process data
     fs.createReadStream(filepath)
+      // .pipe(csv({ separator: "\t" }))
+      // if you get  TypeError: Cannot read properties of undefined (reading 'substring') then try this 
       .pipe(csv({ separator: "," }))
       .on("headers", (headers) => {
         // Merge columns agtv_1 to agtv_5 into one header 'agtv'
@@ -47,6 +49,7 @@ const readCsvFile = async (filepath) => {
         count++;
       })
       .on("end", () => {
+        // console.log(JSON.stringify(csvData))
         resolve({ csvHeaders: Object.values(csvHeaders), csvData });
       });
   });
@@ -74,7 +77,7 @@ const organisePackBookTicket = (csvData) => {
       };
     }
     //add the ticket to the books ticket array
-    packs[pack_code].books[book_code].tickets.push(ticket_code);
+    packs[pack_code].books[book_code].tickets.push({ticket_code,amount:data.amount});
   });
   // console.log(JSON.stringify(packs));
 
@@ -90,6 +93,7 @@ const organisePackBookTicket = (csvData) => {
       }),
     };
   });
+  // console.log("res :",JSON.stringify(result))
   return result;
 };
 module.exports = { readCsvFile, organisePackBookTicket };
