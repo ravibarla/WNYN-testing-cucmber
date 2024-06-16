@@ -130,3 +130,38 @@ Feature: WNYN CSV FILE Validations
     When I gone through all the patttern 
     Then I found that all pattern has correct amount 
   
+  Scenario: validate prize distribution for amount 10
+    Given I have loaded the CSV file
+    When I gone through the prize distribution for amount 10
+    Then I found that there are total 210000
+  
+  Scenario: validate prize distribution for amount 20
+    Given I have loaded the CSV file
+    When I gone through the prize distribution for amount 20
+    Then I found that there are total 120000
+
+  Scenario: validate prize distribution for amount 50
+    Given I have loaded the CSV file
+    When I gone through the prize distribution for amount 50
+    Then I found that there are total 30000
+
+  Scenario: validate prize distribution for amount 100
+    Given I have loaded the CSV file
+    When I gone through the prize distribution for amount 100
+    Then I found that there are total 20000
+  
+  Scenario: validate prize distribution for amount 500
+    Given I have loaded the CSV file
+    When I gone through the prize distribution for amount 500
+    Then I found that there are total 1406
+  
+  Scenario: validate prize distribution for amount 1000
+    Given I have loaded the CSV file
+    When I gone through the prize distribution for amount 1000
+    Then I found that there are total 750
+  
+  
+  Scenario: validate prize distribution for amount 400000
+    Given I have loaded the CSV file
+    When I gone through the prize distribution for amount 400000
+    Then I found that there are total 1

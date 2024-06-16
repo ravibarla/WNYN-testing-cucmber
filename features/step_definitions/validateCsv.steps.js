@@ -512,3 +512,16 @@ Then("I found that all pattern has correct amount", () => {
     );
   }
 });
+
+When("I gone through the prize distribution for amount {int}", (amount) => {
+  this.ticketList = csvData.filter((data) => data.amount == amount);
+});
+Then("I found that there are total {int}", (expectedTotalTickets) => {
+  if (this.ticketList.length !== expectedTotalTickets) {
+    throw new Error(
+      `total tickets with amount 10 is : ${this.ticketList.length}`
+    );
+  }
+  this.ticketList.length = [];
+});
+
