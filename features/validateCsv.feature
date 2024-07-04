@@ -110,3 +110,7 @@ Feature: WNYN CSV FILE Validations
     Given I have loaded the CSV file
     When I gone through all the your number
     Then I found that all the your number is unique
+
+Scenario: validate winning number pattern matching
+When I gone through the winning number pattern matching
+Then I found that all winning number are coming randomly

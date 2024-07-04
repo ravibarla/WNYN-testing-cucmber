@@ -7,6 +7,7 @@ const {
   readCsvFile,
   organisePackBookTicket,
 } = require("../../support/csv.support2");
+const { agtvAmount } = require("../getProperty");
 // const organisePackBookTicket = require("../../support/csv.support");
 //define path and columns to extract
 const filepath = path.join(path.resolve(), "data", "WNYN_DATA.csv");
@@ -434,5 +435,52 @@ Then("I found that all the your number is unique", () => {
       `total tickets with same win numbers are ${this.sameUniqueNumbers.length}`
     );
   }
-  this.sameUniqueNumbers=[];
+  this.sameUniqueNumbers = [];
+});
+
+// Scenario: validate winning number pattern matching
+When("I gone through the winning number pattern matching", () => {});
+Then("I found that all winning number are coming randomly", () => {
+  // Initialize matchedCount object with wnumber keys
+  let tmpList = [];
+  csvData.forEach((ticket) => {
+    const matchedCount = {};
+
+  
+    let currentObject = tmpList.find(
+      (t) => parseInt(t.prize_amount) == parseInt(agtvAmount[ticket.agtv] || 0)
+    );
+    
+    if (currentObject) {
+      const wNumbers = currentObject.wNumbers[0];
+      for (let i = 1; i <= 3; i++) {
+        const wnumberKey = `wnumber_${i}`;
+        for (let j = 1; j <= 10; j++) {
+          const ynumberKey = `ynumber_${j}`;
+          if (ticket[wnumberKey] == ticket[ynumberKey]) {
+            wNumbers[wnumberKey] = (wNumbers[wnumberKey] || 0) + 1;
+          }
+        }
+      }
+    } else {
+      for (let i = 1; i <= 3; i++) {
+        const wnumberKey = `wnumber_${i}`;
+        if (!matchedCount[wnumberKey]) {
+          matchedCount[wnumberKey] = 0;
+        }
+        for (let j = 1; j <= 10; j++) {
+          const ynumberKey = `ynumber_${j}`;
+          if (ticket[wnumberKey] == ticket[ynumberKey]) {
+            matchedCount[wnumberKey]++;
+          }
+        }
+      }
+      tmpList.push({
+        prize_amount: agtvAmount[ticket.agtv] || 0,
+        wNumbers: [matchedCount],
+      });
+    }
+  });
+  let val = JSON.stringify(tmpList);
+  throw new Error(`${val}`);
 });

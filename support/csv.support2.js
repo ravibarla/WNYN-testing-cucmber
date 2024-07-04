@@ -41,9 +41,9 @@ const readCsvFile = async (filepath) => {
         });
 
         // Store row in data structure
-        // if (count < 2) {
+        if (count < 1000) {
         csvData.push(row);
-        // }
+        }
         count++;
       })
       .on("end", () => {
@@ -76,7 +76,6 @@ const organisePackBookTicket = (csvData) => {
     //add the ticket to the books ticket array
     packs[pack_code].books[book_code].tickets.push(ticket_code);
   });
-  // console.log(JSON.stringify(packs));
 
   // Transform the packs object to match the desired output format
   let result = Object.values(packs).map((pack) => {
